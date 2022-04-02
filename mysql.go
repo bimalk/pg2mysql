@@ -24,6 +24,7 @@ func NewMySQLDB(
 		Params: map[string]string{
 			"charset":   "utf8",
 			"parseTime": "True",
+			"allowNativePasswords": "True",
 		},
 	}
 
